@@ -1,0 +1,18 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Google
+credenciais.json
+token.json
+
+# Node
+bot/node_modules/
+
+# WhatsApp
+.wwebjs_cache/
+.wwebjs_auth/
+
+# VSCode
+.vscode/
