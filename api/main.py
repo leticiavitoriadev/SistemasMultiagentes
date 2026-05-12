@@ -1,7 +1,7 @@
 from typing import TypedDict
 from langgraph.graph import StateGraph, END
 from agentes import *
-from google_calendar import buscar_eventos
+from google_calendar import buscar_eventos, criar_evento, alterar_evento, deletar_evento, buscar_evento_por_titulo
 
 app = FastAPI()
  
